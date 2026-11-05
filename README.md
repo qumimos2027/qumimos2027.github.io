@@ -41,8 +41,10 @@ assets/img/logo-qumimos2027.png  Logo (landing-page title, transparent PNG); fav
 - **Schedule PDF:** replace `assets/docs/QuMIMOS2027-schedule.pdf` with your own file (same name),
   or regenerate it from `program-data.js` with `node tools/make-schedule-pdf.js`
   (needs Node.js + `npm install playwright && npx playwright install chromium`).
-- **Book of abstracts:** replace `assets/docs/QuMIMOS2027-book-of-abstracts.pdf` with the real
-  book (same file name) — the link in the "Book of abstracts" box on `program.html` keeps working.
+- **Book of abstracts:** the box on `program.html` is hidden for now. Put the real book at
+  `assets/docs/QuMIMOS2027-book-of-abstracts.pdf` and remove the `hidden` attribute from
+  `<div class="abstracts-box" ...>` in `program.html`.
+- **Invited speakers:** listed in the "Invited speakers" section of `index.html`.
 - **Header photo:** the landing-page background currently loads the Barcelona photo from its
   online URL. To keep it inside the project (recommended), save it as `assets/img/header.jpg` —
   it is picked up automatically (see `.hero` in `style.css`).

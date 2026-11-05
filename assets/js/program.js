@@ -55,7 +55,7 @@
       }
       inner += "</div></div>";
     });
-    html += block(d.id, d.day, startEnd(d.slots) + " · " + n + (n === 1 ? " talk" : " talks"), inner);
+    html += block(d.id, d.day, startEnd(d.slots) + (n ? " · " + n + (n === 1 ? " talk" : " talks") : ""), inner);
   });
 
   if (typeof POSTERS !== "undefined" && POSTERS.items && POSTERS.items.length) {
