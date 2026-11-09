@@ -45,9 +45,8 @@ assets/img/logo-qumimos2027.png  Logo (landing-page title, transparent PNG); fav
   `assets/docs/QuMIMOS2027-book-of-abstracts.pdf` and remove the `hidden` attribute from
   `<div class="abstracts-box" ...>` in `program.html`.
 - **Invited speakers:** listed in the "Invited speakers" section of `index.html`.
-- **Header photo:** the landing-page background currently loads the Barcelona photo from its
-  online URL. To keep it inside the project (recommended), save it as `assets/img/header.jpg` —
-  it is picked up automatically (see `.hero` in `style.css`).
+- **Header photo:** the landing-page background is `assets/img/header.jpg` (UAB campus).
+  Replace that file to change it (see `.hero` in `style.css`).
 - **Supporting logos:** UAB, GIQ and CQA logos are in `assets/img/logo-uab.png`, `logo-giq.png`,
   `logo-cqa.png` and listed in the footer of `index.html` (heights in `style.css`, `.logos img`).
 - **Participants / posters:** `PARTICIPANTS` and `POSTERS` arrays in `program-data.js`.
